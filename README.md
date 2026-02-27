@@ -5,11 +5,11 @@ AI-powered real-time infrastructure monitoring system developed to identify anom
 
 ##  Quick Access
 
- **Live Application:** https://infrastructure-health.streamlit.app
+ **Live Application:** https://smartinfraanomaly.streamlit.app
 
  **Demo Video & PPT:** https://drive.google.com/your-folder-link  
 
- **GitHub Repository:** https://github.com/your-username/your-repo-name  
+ **GitHub Repository:** https://github.com/AkankshaKalamadugu/TetherX-Hackathon
 
 ---
 
@@ -71,7 +71,7 @@ InfraGuard is a real-time infrastructure health monitoring dashboard that:
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/AkankshaKalamadugu/TetherX-Hackathon
 cd TetherX-Hackathon
 ```
 
