@@ -7,7 +7,7 @@ AI-powered real-time infrastructure monitoring system developed to identify anom
 
  **Live Application:** https://smartinfraanomaly.streamlit.app
 
- **Demo Video & PPT:** https://drive.google.com/your-folder-link  
+ **Demo Video & PPT:** https://drive.google.com/drive/folders/1kXS8uSfiH4e_ItUcfd1A7cjKs4ergkVr?usp=sharing  
 
 ---
 
