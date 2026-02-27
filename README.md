@@ -9,8 +9,6 @@ AI-powered real-time infrastructure monitoring system developed to identify anom
 
  **Demo Video & PPT:** https://drive.google.com/your-folder-link  
 
- **GitHub Repository:** https://github.com/AkankshaKalamadugu/TetherX-Hackathon
-
 ---
 
 ##  Problem Statement
