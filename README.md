@@ -19,37 +19,46 @@ There is a requirement for a real-time, intelligent system capable of identifyin
 
 ---
 
-##  Proposed Solution
+## Approach
 
-InfraGuard is a real-time infrastructure health monitoring dashboard that:
+InfraGuard is intended to be a real-time infrastructure health monitoring dashboard that:
 
-- Continuously processes live sensor data  
-- Detects anomalies using Machine Learning (Isolation Forest)  
+- Continuously processes live or simulated sensor data  
+- Identifies anomalies using Machine Learning (Isolation Forest)  
 - Calculates infrastructure health scores  
-- Visualizes risk levels through interactive dashboards  
-- Enables predictive maintenance instead of reactive repair  
+- Categorizes structural health into Good, Warning, and Critical levels  
+- Supports predictive maintenance rather than reactive maintenance  
+
+The system aims to provide early anomaly detection to minimize risks of structural failure. 
 
 ---
 
-##  Tech Stack
+## Implementation Details
 
-- **Frontend & Dashboard:** Streamlit   
-- **Machine Learning:** Scikit-learn (Isolation Forest)  
-- **Deployment:** Streamlit Cloud  
+1. Sensor data (simulated/live) is ingested into the system.  
+2. Key parameters monitored include:
+   - Vibration  
+   - Temperature  
+   - Wind Speed  
+   - Structural Stress  
+   - Humidity  
 
----
-
-##  How It Works
-
-1. Simulated or live sensor data is ingested.  
-2. Features like vibration, temperature, wind speed, stress, and humidity are monitored.  
-3. An Isolation Forest model detects abnormal patterns.  
-4. Each reading is classified as:  
+3. An Isolation Forest model analyzes patterns and identifies abnormal behavior.  
+4. Each data point is classified as:
    - ✅ Good  
    - ⚠️ Warning  
-   - 🔴 Critical  
-5. A health score and anomaly rate are computed.  
-6. Interactive graphs visualize trends and structural stability.  
+   - 🔴 Critical   
+
+5. A health score and anomaly rate are computed dynamically.  
+6. Interactive visualizations display trends, risk levels, and system stability in real time.
+
+---
+
+## Tech Stack
+
+- **Frontend & Dashboard:** Streamlit    
+- **Machine Learning:** Scikit-learn (Isolation Forest)  
+- **Deployment:** Streamlit Cloud  
 
 ---
 
